@@ -15,7 +15,7 @@ export default function App() {
       <Header/>
       <Contact/>
       <Navbar/>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route path="/" exact component={Home}/>
             <Route path="/Projects" component={Projects}/>
