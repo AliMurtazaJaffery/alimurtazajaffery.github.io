@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 //Pages
+// "homepage": "https://AliMurtazaJaffery.github.io/alimurtazajaffery.github.io",
 import Home from './Pages/Home'
 import Projects from './Pages/Projects'
 import Work from './Pages/Work'
@@ -15,6 +16,7 @@ export default function App() {
       <Header/>
       <Contact/>
       <Navbar/>
+      Hello Bitches
       <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route path="/" exact component={Home}/>
