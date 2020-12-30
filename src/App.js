@@ -16,7 +16,11 @@ export default function App() {
       <Header/>
       <Contact/>
       <Navbar/>
+<<<<<<< HEAD
       Hello Bitches 2
+=======
+    Hello bitches
+>>>>>>> f68b9fbded833a50953f11c158d205e66cafe1e9
       <Router basename={"/"}>
           <Switch>
             <Route path="/" exact component={Home}/>
