@@ -1,10 +1,14 @@
 import React from 'react'
-import {Box,Flex,Link} from "@chakra-ui/core";
+import {Box,Flex,Link} from "@chakra-ui/react";
 // import {Link} from "react-router-dom";
 import Resume from '../../Pages/resume.pdf'
 
+type NavbarProps={
+  href:string,
+  children:React.ReactNode,
+}
 
-const NavbarLink = ({ href, children }) => (
+const NavbarLink: React.FunctionComponent<NavbarProps> = ({ href, children}) => (
   <Box
     mr={[0, 0, 6, 10, 12]}
     mb={[3, 4, 0, 0, 0]}

@@ -26,7 +26,6 @@ export default function Projects() {
         </Box>
         
       </Flex>
-      <Text>Will Add Description to all</Text>
     </>
   );
 }

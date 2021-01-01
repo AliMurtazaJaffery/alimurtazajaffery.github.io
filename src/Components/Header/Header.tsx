@@ -6,9 +6,6 @@ import myImage from "./photo.jpg"
 function Header(){
   return(
     <>
-      <img>
-      
-      </img>
       <Box mt="90px">
         <Flex align="center" justify="center">
           <Image boxSize={["65px","65px","130px","130px"]} borderRadius="full" src={myImage}/>

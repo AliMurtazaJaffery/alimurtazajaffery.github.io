@@ -1,13 +1,18 @@
 import React  from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {Link,Flex} from "@chakra-ui/core";
+import {Link,Flex} from "@chakra-ui/react";
 import {faGithub,faTwitter, faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
+type contactProps={
+  icon:any,
+  link:string,
+  size?:any,
+}
 
-const ContactIcon=({icon,link})=>(
+const ContactIcon:React.FunctionComponent<contactProps>=({icon,link,size=["x","2x"]})=>(
   <Link mx="10px" href={link}>
-    <FontAwesomeIcon icon={icon} size={["x","2x"]}/>
+    <FontAwesomeIcon icon={icon} size={size}/>
   </Link>
 )
 
