@@ -18,8 +18,8 @@ export default function App() {
       <Box textAlign="center" mb="40px">
         <Heading fontSize="2xl" my="30px">Education</Heading>
         <Flex justify="center">
-          <Box align="center" mx={["40px","80px"]}>
-            <Image src={fgs} boxSize={["90px","150px"]} />
+          <Box align="center" mx={["20px","60px"]}>
+            <Image src={fgs} boxSize={["90px","140px"]} />
             <Heading fontSize={["xs","lg"]} my="10px">FFC Grammar H/S School</Heading>
             <Text fontSize={["xs","lg"]}>(2006-2019)</Text>
             <Text fontSize={["xs","lg"]}>Cambridge O' Levels 9A*</Text>
@@ -27,12 +27,12 @@ export default function App() {
             <Text fontSize={["xs","lg"]}>A perfect SAT score of 2400 in SAT Subject Test</Text>
             
           </Box>
-          <Box align="center" mx={["40px","80px"]}>
-            <Image src={hku} boxSize={["90px","150px"]}/>
+          <Box align="center" mx={["20px","60px"]}>
+            <Image src={hku} boxSize={["90px","140px"]}/>
             <Heading fontSize={["xs","lg"]} my="10px">The University Of Hong Kong</Heading>
             <Text fontSize={["xs","lg"]}>(2019-2023)</Text>
             <Text fontSize={["xs","lg"]}>Full 100% Scholarship</Text>
-            <Text fontSize={["xs","lg"]}>Current CGPA : 3.97</Text>            
+            <Text fontSize={["xs","lg"]}>Current CGPA : 3.84</Text>            
             <Text fontSize={["xs","lg"]}>Dean's Honours List in academic year 2019-2020</Text>
           </Box>
         </Flex>

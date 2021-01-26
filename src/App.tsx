@@ -9,6 +9,7 @@ import Work from './Pages/Work'
 import Header from './Components/Header/Header'
 import Navbar from './Components/Navbar/Navbar'
 import Contact from './Components/Contact/Contact'
+import projectDescription from "./Components/projectDescription"
 
 export default function App() {
   return (
@@ -19,12 +20,16 @@ export default function App() {
       <Router basename={"/"}>
           <Switch>
             <Route path="/" exact component={Home}/>
-            <Route path="/Projects" component={Projects}/>
-            <Route path="/Work" component={Work}/>
+            <Route path="/Projects" exact component={Projects}/>
+            <Route path="/Projects/studentbase" exact component={projectDescription}/>
+            <Route path="/Projects/weatherapp" exact component={projectDescription}/>
+            <Route path="/Projects/bigtwo" exact component={projectDescription}/>
+            <Route path="/Projects/notakto" exact component={projectDescription}/>
+
+            <Route path="/Work" exact component={Work}/>
           </Switch>
         </Router>
     </>
   );
 }
 
-// export default App;
