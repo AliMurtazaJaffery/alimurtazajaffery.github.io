@@ -6,7 +6,7 @@ import myImage from "./photo.jpg"
 function Header(){
   return(
     <>
-      <Box mt="90px">
+      <Box mt="60px">
         <Flex align="center" justify="center">
           <Image boxSize={["65px","65px","130px","130px"]} borderRadius="full" src={myImage}/>
           <Heading mx={["15px","25px"]} fontSize={["23px","29px","35px","40px"]}>S M Ali Murtaza Jaffery</Heading>

@@ -7,7 +7,7 @@ export default function App() {
   return (
     <Box width={["80%","80%","60%","40%"]} mx={["10%","10%","20%","30%"]}>
 
-      <Box textAlign="center" mt="50px">
+      <Box textAlign="center" mt="30px">
         <Heading fontSize="2xl"  >About Me</Heading>
         <Divider my='20px' orientation="horizontal" />
         <Text mb="25px">
@@ -20,7 +20,7 @@ export default function App() {
         <Heading fontSize="2xl" >Education</Heading>
         <Divider my='20px' orientation="horizontal" />
         <Flex>
-          <Box align="center" mr="3.5px" mt="10px">
+          <Box align="center" mr="5.5px" mt="10px">
             <Image src={fgs} boxSize={["80px","130px"]} />
             <Heading fontSize={["xs","lg"]} my="10px">FFC Grammar H/S School</Heading>
             <Text fontSize={["xs","lg"]}>(2006-2019)</Text>
@@ -29,7 +29,7 @@ export default function App() {
             <Text fontSize={["xs","lg"]}>A perfect SAT score of 2400 in SAT Subject Test</Text>
             
           </Box>
-          <Box align="center" ml="3.5px" mt="10px">
+          <Box align="center" ml="5.5px" mt="10px">
             <Image src={hku} boxSize={["80px","130px"]}/>
             <Heading fontSize={["xs","lg"]} my="10px">The University Of Hong Kong</Heading>
             <Text fontSize={["xs","lg"]}>(2019-2023)</Text>
