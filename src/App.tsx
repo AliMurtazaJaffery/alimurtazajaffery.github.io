@@ -9,7 +9,11 @@ import Work from './Pages/Work'
 import Header from './Components/Header/Header'
 import Navbar from './Components/Navbar/Navbar'
 import Contact from './Components/Contact/Contact'
-import projectDescription from "./Components/projectDescription"
+import StudentBase from "./Pages/StudentBaseDescription"
+import weatherApp from "./Pages/WeatherAppDescription"
+import bigTwo from "./Pages/BigTwoDescription"
+import forum from "./Pages/ForumDescription"
+import notakto from "./Pages/NotaktoDescription"
 
 export default function App() {
   return (
@@ -21,11 +25,12 @@ export default function App() {
           <Switch>
             <Route path="/" exact component={Home}/>
             <Route path="/Projects" exact component={Projects}/>
-            <Route path="/Projects/studentbase" exact component={projectDescription}/>
-            <Route path="/Projects/weatherapp" exact component={projectDescription}/>
-            <Route path="/Projects/bigtwo" exact component={projectDescription}/>
-            <Route path="/Projects/notakto" exact component={projectDescription}/>
-
+            <Route path="/Projects/studentbase" exact component={StudentBase}/>
+            <Route path="/Projects/weatherapp" exact component={weatherApp}/>
+            <Route path="/Projects/bigtwo" exact component={bigTwo}/>
+            <Route path="/Projects/notakto" exact component={notakto}/>
+            <Route path="/Projects/interactiveforum" component={forum}/> 
+            
             <Route path="/Work" exact component={Work}/>
           </Switch>
         </Router>

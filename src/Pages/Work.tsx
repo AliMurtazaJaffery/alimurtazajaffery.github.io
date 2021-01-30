@@ -6,7 +6,7 @@ export default function Work(){
     <>
       <Flex align="space-between" w="40%" mx="30%">
       <Box align="center" >          
-          <Image src={firstCode} boxSize="100px"  width="220px"/>
+          <Image src={firstCode} boxSize="100px"  width="240px"/>
           <Heading mt="20px" fontSize="xl">First Code Academy</Heading>
           <Text>Summer tech Instructor</Text>
           <Text>(May 2019 - August 2019)</Text>

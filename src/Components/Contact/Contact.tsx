@@ -11,8 +11,11 @@ type contactProps={
 }
 
 const ContactIcon:React.FunctionComponent<contactProps>=({icon,link,size=["x","2x"]})=>(
-  <Link mx="10px" href={link}>
-    <FontAwesomeIcon icon={icon} size={size}/>
+  <Link mx="10px" href={link}   _hover={{
+    color: "blue.500",
+    transform: "scale(1.3)"
+  }}>
+    <FontAwesomeIcon icon={icon} size={size} />
   </Link>
 )
 
