@@ -1,5 +1,4 @@
 import firstCode from './WorkImages/firstcode.png'
-import CSHKU from './WorkImages/CSHKU.png'
 import risksis from './WorkImages/risksis.png'
 import FSI from './WorkImages/FSI.png'
 import {Flex,Image,Heading,Box,Text} from '@chakra-ui/react'
