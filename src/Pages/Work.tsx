@@ -1,7 +1,6 @@
 import firstCode from './WorkImages/firstcode.png'
-import risksis from './WorkImages/risksis.png'
 import FSI from './WorkImages/FSI.png'
-import {Flex,Image,Heading,Box,Text, LightMode} from '@chakra-ui/react'
+import {Flex,Image,Heading,Box,Text} from '@chakra-ui/react'
 
 type workProps={
   image:string,
