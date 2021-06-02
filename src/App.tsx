@@ -14,6 +14,10 @@ import weatherApp from "./Pages/WeatherAppDescription"
 import bigTwo from "./Pages/BigTwoDescription"
 import forum from "./Pages/ForumDescription"
 import notakto from "./Pages/NotaktoDescription"
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "UA-197709334-1"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 export default function App() {
   return (
