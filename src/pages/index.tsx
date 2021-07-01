@@ -1,4 +1,4 @@
-import {Box,Heading,Text,Flex,Divider,Link} from "@chakra-ui/react"
+import {Box,Heading,Text,Flex,Divider} from "@chakra-ui/react"
 import fgs from "../../public/HomeImages/fgs.png"
 import hku from "../../public/HomeImages/hku.jpg"
 import Image from 'next/image';
