@@ -1,17 +1,5 @@
-import Head from 'next/Head'
+import Head from 'next/head'
 import React from 'react'
-
-// const SEO = (title?:string) => {
-//     return (
-//         <Head>
-//             <meta charSet="utf-8" />
-//             <link rel="icon" href="../../../public/photo.jpg" />
-//             <meta name="viewport" content="width=device-width, initial-scale=1" />
-//             <meta name="theme-color" content="#000000" />
-//             <title>{title}</title>
-//         </Head>
-//     )
-// }
 
 type SEOProps={
     title?:string,
