@@ -2,10 +2,9 @@ import React from 'react'
 import {Box,Flex,Link} from "@chakra-ui/react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons'
-import Resume from '../../Pages/resume.pdf'
 
 type NavbarProps={
-  href:string,
+  href?:string,
   children:React.ReactNode,
 }
 
@@ -27,7 +26,7 @@ function Navbar(){
     <Box align="center">
       <Flex justify="center" my="35px">
           <NavbarLink href="/"><FontAwesomeIcon icon={faHome}/> </NavbarLink>
-          <NavbarLink href={Resume}>Resume</NavbarLink>
+          <NavbarLink href="/resume.pdf">Resume</NavbarLink>
           <NavbarLink href="/Work">Work</NavbarLink>
           <NavbarLink href="/Projects">Projects</NavbarLink>
 

@@ -1,19 +1,23 @@
 import React  from "react";
-import {Image,Box,Heading,Text,Link,UnorderedList, ListItem} from '@chakra-ui/react';
-import studentbase from '../Pages/ProjectsImages/studentbase.png';
+import {Box,Heading,Text,Link,UnorderedList, ListItem} from '@chakra-ui/react';
+import studentbase from '../../../public/ProjectsImages/studentbase.png';
+import Image from 'next/image';
+import SEO from "../../Components/SEO/SEO";
 
 export default function StudentBaseDescription() {
     return(
+        <>
+        <SEO title="Projects" siteTitle="StudentBase"/>
         <Box width={["80%","80%","60%","40%"]} mx={["10%","10%","20%","30%"]} align="center">
             <Box align="left">
                 <Heading>StudentBase</Heading>
                 <Text my="5px">December 2020-Present</Text>
                 <hr/>
-                <Text my="5px">A platform for high school students to share useful resources with each other. 
+                <Text mt="5px" mb="15px">A platform for high school students to share useful resources with each other. 
                 Released on January 11, 2020, it has 10k monthly unique users and 125k monthly page views (as of March 10, 2020).
                 </Text>
-                <Image mb="20px" src={studentbase} mt="10px" height={["220px","350px"]} width="100%"/>
-                <Heading >Links</Heading>
+                <Image src={studentbase}/>
+                <Heading mt="20px" >Links</Heading>
                 <Box my="15px" ml="20px">
                     <UnorderedList>
                         <ListItem><Link color="teal.500" href="https://studentbase.app/">StudentBase.app</Link></ListItem>
@@ -61,5 +65,6 @@ export default function StudentBaseDescription() {
             
             
         </Box>
+        </>
     )
 }
