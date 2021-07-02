@@ -1,10 +1,9 @@
 import React  from "react";
-import {Box,Heading,Text,Link,UnorderedList, ListItem} from '@chakra-ui/react';
-import bigTwo from '../../../public/ProjectsImages/bigTwoGUI.png';
-import Image from 'next/image';
+import {Box,Heading,Text,Link,UnorderedList, ListItem,Image} from '@chakra-ui/react';
 import SEO from "../../Components/SEO/SEO"
 
-export default function BigTwoDescription() {
+export default function BigTwoDescription(){
+    const projectImage = "/ProjectsImages/bigTwoGUI.png" as any;
     return(
         <>
         <SEO title="Projects" siteTitle="Big Two"/>
@@ -17,7 +16,7 @@ export default function BigTwoDescription() {
                     A full-featured multiplayer networked card game made in Java. 
                     A total of 4 players can play this game at a time and communicate with each other using the chat feature.
                 </Text>
-                <Image src={bigTwo}/>
+                <Image mb="20px" src={projectImage} mt="10px" height={["220px","350px"]}  width="100%"/>
                 <Heading mt="20px" >Links</Heading>
                 <Box my="15px" ml="20px">
                     <UnorderedList>

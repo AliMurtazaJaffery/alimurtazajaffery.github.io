@@ -1,10 +1,9 @@
 import React  from "react";
-import {Box,Heading,Text,Link,UnorderedList, ListItem} from '@chakra-ui/react';
-import forum from '../../../public/ProjectsImages/Forum.png'
-import Image from 'next/image';
+import {Box,Heading,Text,Link,UnorderedList, ListItem,Image} from '@chakra-ui/react';
 import SEO from "../../Components/SEO/SEO";
 
 export default function ForumDescription() {
+    const projectImage = "/ProjectsImages/Forum.png" as any;
     return(
         <>
         <SEO title="Projects" siteTitle="Interactive Forum"/>
@@ -16,7 +15,7 @@ export default function ForumDescription() {
                 <Text mt="5px" mb="15px">
                     Users can interact with each other and help clear any doubts regarding computer science topics.
                 </Text>
-                <Image src={forum}/>
+                <Image src={projectImage}  height={["220px","350px"]}  width="100%"/>
                 <Heading mt="20px" >Links</Heading>
                 <Box my="15px" ml="20px">
                     <UnorderedList>

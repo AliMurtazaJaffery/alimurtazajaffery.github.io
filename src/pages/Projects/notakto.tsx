@@ -1,10 +1,9 @@
 import React  from "react";
-import {Box,Heading,Text,Link,UnorderedList, ListItem} from '@chakra-ui/react';
-import notakto from '../../../public/ProjectsImages/notakto.png';
-import Image from 'next/image';
+import {Image,Box,Heading,Text,Link,UnorderedList, ListItem} from '@chakra-ui/react';
 import SEO from "../../Components/SEO/SEO";
 
 export default function BigTwoDescription() {
+    const projectImage = "/ProjectsImages/notakto.png" as any;
     return(
         <>
         <SEO title="Projects" siteTitle="notakto"/>
@@ -16,7 +15,7 @@ export default function BigTwoDescription() {
                 <Text mt="5px" mb="15px">
                     A 3 board game of Notakto with a special player who knows all about the game and it's almost impossible to defeat it in this game. 
                 </Text>
-                <Image src={notakto}/>
+                <Image src={projectImage}  height={["220px","350px"]}  width="100%"/>
                 <Heading mt="20px">Links</Heading>
                 <Box my="15px" ml="20px">
                     <UnorderedList>

@@ -1,10 +1,9 @@
 import React  from "react";
-import {Box,Heading,Text,Link,UnorderedList, ListItem} from '@chakra-ui/react';
-import weather from '../../../public/ProjectsImages/weatherWebApp.png';
-import Image from 'next/image';
+import {Image,Box,Heading,Text,Link,UnorderedList, ListItem} from '@chakra-ui/react';
 import SEO from "../../Components/SEO/SEO";
 
 export default function WeatherAppDescription() {
+    const projectImage = "/ProjectsImages/weatherWebApp.png" as any;
     return(
         <>
         <SEO title="Projects" siteTitle="Weather Web App"/>
@@ -17,7 +16,7 @@ export default function WeatherAppDescription() {
                     Get to know the current weather of all 18 districts of Hong kong and the forecast for the next 9 days.
                     Moreover, you will get to see a warning sign in case of any emergency such as a Thunderstorm.
                 </Text>
-                <Image src={weather}/>
+                <Image src={projectImage}  height={["220px","350px"]}  width="100%"/>
                 <Heading mt="20px">Links</Heading>
                 <Box my="15px" ml="20px">
                     <UnorderedList>
