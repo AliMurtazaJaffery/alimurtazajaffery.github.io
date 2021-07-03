@@ -1,6 +1,6 @@
 import {Flex,Heading,Box,Text} from '@chakra-ui/react'
 import Image from "next/image"
-import SEO from "../../Components/SEO/SEO"
+import SEO from "../../components/SEO/SEO"
 
 type workProps={
   image:any,

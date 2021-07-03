@@ -1,9 +1,9 @@
 import { ChakraProvider } from "@chakra-ui/react"
-import Header from "../Components/Header/Header"
-import Contact from "../Components/Contact/Contact"
-import Navbar from "../Components/Navbar/Navbar"
-import SEO from "../Components/SEO/SEO"
-import Footer from "../Components/Footer/Footer"
+import Header from "../components/Header/Header"
+import Contact from "../components/Contact/Contact"
+import Navbar from "../components/Navbar/Navbar"
+import SEO from "../components/SEO/SEO"
+import Footer from "../components/Footer/Footer"
 import type { AppProps } from 'next/app'
 import '../../public/style.css'
 

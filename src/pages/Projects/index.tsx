@@ -1,7 +1,7 @@
 import React from 'react';
 import {Flex,Heading,Box,Text,useColorModeValue} from '@chakra-ui/react';
 import Image from 'next/image';
-import SEO from "../../Components/SEO/SEO"
+import SEO from "../../components/SEO/SEO"
 import Link from 'next/link'
 import styled from 'styled-components'
 

@@ -1,6 +1,6 @@
 import React  from "react";
 import {Box,Heading,Text,Link,UnorderedList, ListItem,Image} from '@chakra-ui/react';
-import SEO from "../../Components/SEO/SEO"
+import SEO from "../../components/SEO/SEO"
 
 export default function BigTwoDescription(){
     const projectImage = "/ProjectsImages/bigTwoGUI.png" as any;
