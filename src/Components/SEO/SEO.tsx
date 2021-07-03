@@ -6,7 +6,6 @@ type SEOProps={
     siteTitle?:string,
   }
   
-
 const SEO: React.FunctionComponent<SEOProps>=({ title, siteTitle }) =>{
   return (
     <Head>
