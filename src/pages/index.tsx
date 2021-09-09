@@ -15,7 +15,7 @@ export default function App() {
         <Text mb="25px">
           I am currently a Junior at The University of Hong Kong and will be graduating in 2023.
           Solving problems and brainstorming new ideas are some of the things which I relish.
-          Besides coding, I enjoy Cooking and playing Tennis. Feel free to reach
+          Besides coding, I enjoy Cooking and playing Tennis.
         </Text>
       </Box>
       <Box textAlign="center" mb="40px">
