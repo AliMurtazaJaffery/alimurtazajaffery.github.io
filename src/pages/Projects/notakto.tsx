@@ -2,7 +2,7 @@ import React  from "react";
 import {Image,Box,Heading,Text,Link,UnorderedList, ListItem} from '@chakra-ui/react';
 import SEO from "../../components/SEO/SEO";
 
-export default function BigTwoDescription() {
+export default function NotaktoDescription() {
     const projectImage = "/ProjectsImages/notakto.png" as any;
     return(
         <>

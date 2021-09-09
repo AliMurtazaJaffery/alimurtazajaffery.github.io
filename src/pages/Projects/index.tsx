@@ -37,10 +37,10 @@ export default function Projects() {
     <>
       <SEO siteTitle="Projects"/>
       <Flex justify="space-between" w={["80%","80%","60%","40%"]} mx={["10%","10%","20%","30%"]} wrap="wrap" mb="80px">
-        <ProjectLink src='/ProjectsImages/studentbase.png' name="StudentBase" description="A community of O and A Level students, tutors and teachers." href="/Projects/studentbase"/>
         <ProjectLink src='/ProjectsImages/Forum.png' name="User Interactive Forum" description="A place where users can interact with each other and get answers to their questions" href="/Projects/interactiveforum"/>
         <ProjectLink src='/ProjectsImages/weatherWebApp.png' name="Weather Web App" description="Getting Hong Kong's weather data from HK Observatory using Vanilla JS " href="/Projects/weatherapp"/>
         <ProjectLink src='/ProjectsImages/bigTwoGUI.png' name="Big two Card Game" description="A fully featured multiplayer networking game made using Java" href="/Projects/bigtwo"/>
+        <ProjectLink src='/ProjectsImages/gameshowmain.png' name="Trivia" description="A trivia based game show with bonus rounds of Lucky 7 and Rapid Fire." href="/Projects/gameshow"/>
         <ProjectLink src='/ProjectsImages/notakto.png' name="Notakto" description="A triple board game made using Python with an invincible AI player." href="/Projects/notakto"/>
       </Flex>
     </>

@@ -13,9 +13,9 @@ export default function App() {
         <Heading fontSize="2xl"  >About Me</Heading>
         <Divider my='20px' orientation="horizontal" />
         <Text mb="25px">
-          I am currently a Sophomore at The University of Hong Kong and will be graduating in 2023.
+          I am currently a Junior at The University of Hong Kong and will be graduating in 2023.
           Solving problems and brainstorming new ideas are some of the things which I relish.
-          Besides coding, I enjoy Cooking and playing Tennis. According to my mother, I am an amazing chef.
+          Besides coding, I enjoy Cooking and playing Tennis. Feel free to reach
         </Text>
       </Box>
       <Box textAlign="center" mb="40px">
@@ -36,7 +36,7 @@ export default function App() {
             <Heading fontSize={["xs","lg"]} my="10px">The University Of Hong Kong</Heading>
             <Text fontSize={["xs","lg"]}>(2019-2023)</Text>
             <Text fontSize={["xs","lg"]}>Full 100% Scholarship</Text>
-            <Text fontSize={["xs","lg"]}>Current CGPA : 3.84</Text>            
+            <Text fontSize={["xs","lg"]}>Current CGPA : 3.62</Text>            
             <Text fontSize={["xs","lg"]}>Dean's Honours List in academic year 2019-2020</Text>
           </Box>
         </Flex>
